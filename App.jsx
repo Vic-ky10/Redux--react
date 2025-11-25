@@ -1,10 +1,10 @@
 import React from 'react'
-import Counter from './redux/Counter'
+import Home from './redux/Home'
 
 function App() {
   return (
-  <Counter />
-  )
+    <Home />
+  )                                   
 }
 
 export default App
