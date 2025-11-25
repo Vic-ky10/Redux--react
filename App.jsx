@@ -1,12 +1,9 @@
 import React from 'react'
+import Counter from './redux/Counter'
 
 function App() {
   return (
-    <div>App
-        <h1>
-            hello
-        </h1>
-    </div>
+  <Counter />
   )
 }
 
