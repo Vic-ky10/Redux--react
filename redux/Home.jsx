@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {   useState } from "react";
 
 function Home() {
   const [user, setUser] = useState({
@@ -8,8 +8,8 @@ function Home() {
     contact: "",
   });
 
- 
-     const handleChange = (e) => {
+  
+   const handleChange = (e) => {
     const {name , value} = e.target 
     setUser((currentInput)=> {
          return {
@@ -18,6 +18,8 @@ function Home() {
     })
     console.log(user)
   };
+  
+  
 
   return (
     <div>
@@ -58,7 +60,7 @@ function Home() {
         name="contact"
           type="number"
           id="no"
-          value={user.Contact}
+          value={user.contact}
           onChange={handleChange}
         />
         <br />
